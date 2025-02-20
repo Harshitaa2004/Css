@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    
+    <style>
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #d6f14d;
+            color: rgb(18, 2, 2);
+
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+
+        }
+
+        nav ul li {
+            margin: 0px 20px;
+
+        
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .searchbox{
+            position: relative;
+           width: 300px;
+    
+        }
+        .icon{
+            position: absolute;
+           
+            right: 135px;      
+    
+            
+    
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>logo</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">run</a></li>
+                <li><a href="#">edit</a></li>
+                <li><a href="#">view</a></li>
+                <li><a href="#">help</a></li>
+            </ul>
+        </nav>
+        <div class="searchbox">
+            <input type="text" placeholder="search">
+            <button>search</button>
+            <i class="icon">
+                <span class="material-symbols-outlined">
+                    search
+                    </span></i>
+
+        </div>
+    </header>
+
+</body>
+
+</html>
