@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .linear-gradient {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(45deg, rgb(243, 250, 135), rgb(214, 64, 152));
+        }
+
+        .radial {
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgb(160, 244, 165), rgb(38, 76, 22));
+        }
+
+        .conic {
+            width: 100px;
+            height: 100px;
+            background: conic-gradient(rgb(122, 80, 218), rgb(110, 186, 252));
+        }
+
+        div {
+            padding: 20px;
+            margin: 20px;
+            justify-content: space-between;
+        }
+        .repeating {
+            width: 100px;
+            height: 100px;
+            background: repeating-linear-gradient(45deg, rgb(243, 250, 135), rgb(214, 64, 152) 20px);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="linear-gradient"></div>
+        <div class="radial"></div>
+        <div class="conic"></div>
+        <div class="repeating"></div>
+    </div>
+</body>
+
+</html>
