@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+            background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJsdWUlMjBjb2xvcnxlbnwwfHwwfHx8MA%3D%3D);
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+.login-container{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 15px;}
+    h1{
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+    form{
+        padding: 10px;
+        text-align: center;
+        
+    }
+    .input-box{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        height: 30px;
+        margin-bottom: 10px ;
+        font-size: 20px;
+       
+        
+        border-bottom: 1px solid #fff;
+        border-radius: 15px;
+    }
+    .input-box input{
+        width: 100%;
+        height: 100%;
+        background: none;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    /* .input-box label{
+        position: absolute;
+        color:white ;
+        bottom:5px;
+        left: 20px
+        
+        
+        
+
+    }
+    .input-box input:focus + label{
+        transform: translateY(-20px);
+        
+    } */
+    
+    .btn-box,.register-forget{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 20px 0;
+        
+        
+    }    
+    .btn-box input{
+        font-size: 18px;
+        width: 100px;
+        background-color: aliceblue;
+        border-right: 10px;
+        border-radius: 5px;
+
+    }
+.register-forget a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    ;
+}
+.register-forget a:hover{
+    text-decoration: underline;
+    color: black;}
+
+
+
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="login-container">
+            <h1>Login</h1>
+            <form action="">
+                <div class="input-box">
+                    <input type="text" placeholder="Username">
+                    <label for="username">username</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password">
+                    <label for="password">password</label>
+                </div>
+                <div class="btn-box">
+                <input type="submit"  value="Login">
+                <input type="reset" >
+                </div>
+                <div class="register-forget">
+                    <a href="#">register</a>
+                    <a href="#">forget</a>
+                </div>
+            </form>
+        </div>
+
+        </div>
+
+    </header>
+</body>
+
+</html>
